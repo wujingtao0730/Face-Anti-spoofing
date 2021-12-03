@@ -1,0 +1,78 @@
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x16845c760>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x16845cf70>
+
+** net setting **
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x10a1a6a30>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x165716df0>
+
+** net setting **
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x11b24a340>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x15aec7e80>
+
+** net setting **
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x147f11e50>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x1514864c0>
+
+** net setting **
+	config.save_dir      = ./Models/ViTFusion_fusion_96_16
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x1475ec1c0>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x1475eceb0>
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+
+** start training here! **
+                                  |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+model_name   lr   iter  epoch     |     loss      acer      acc    |     loss              acc     |  time   
+----------------------------------------------------------------------------------------------------

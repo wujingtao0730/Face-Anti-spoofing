@@ -1,0 +1,20 @@
+	config.save_dir      = ./Models/FaceBagNetFusion_fusion_96
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x165fe1190>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x165fe11c0>
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+
+
+** start training here! **
+                                  |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+model_name   lr   iter  epoch     |     loss      acer      acc    |     loss              acc     |  time   
+----------------------------------------------------------------------------------------------------
